@@ -8,10 +8,12 @@ import MacContainer from "./MacContainer.jsx";
 const App = () => {
   return (
   <div className= "w-full h-screen">
-    <div className="absolute text-white top-32 left-1/2 -translate-x-1/2 font-family:'Helvetica Now Display'">
-    <h3 className="text-7xl tracking-tighter font-[700]">
-      Macbook pro.
-    </h3>
+    <div className="absolute flex flex-col items-center text-white top-56 left-1/2 -translate-x-1/2 font-family:'Helvetica Now Display'">
+    <h3 className="masked text-7xl tracking-tighter font-[700]">Macbook pro.</h3>
+    <h5>Oh so pro ! </h5>
+    <p className="text-center w-3/4">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse aperiam laudantium laboriosam perferendis perspiciatis illum adipisci temporibus
+    </p>
     </div>
   <Canvas camera={{fov:12, position: [0, -10, 220] }}>
     <OrbitControls/>
