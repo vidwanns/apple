@@ -28,5 +28,4 @@ const MacContainer = () => {
         </group>
     );
 };
-
 export default MacContainer;
